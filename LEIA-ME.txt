@@ -1,0 +1,44 @@
+POCO98 — XBOX ONE / GAMEPAD VIEWER
+
+Skin baseada nos ficheiros Xbox da Dracula Theme (MIT), fornecidos pelo utilizador.
+Paleta: creme #FCEACD, azul #0063F5, ciano #00C7EB, dourado #FFD45A.
+Mantém as dimensões originais 750 × 630 e os sprites/estados do Xbox One.
+
+OPÇÃO MAIS SIMPLES — OBS, SEM ALOJAMENTO
+1. Mantém a tua fonte Browser do Gamepad Viewer, com o modelo Xbox One.
+   Base do overlay beta: https://overlay.gamepadviewer.com/loader/index.html?p=1&s=1
+2. Define a fonte Browser para 750 de largura e 630 de altura.
+3. Abre poco98-obs.css, copia TODO o conteúdo e cola em Custom CSS da fonte Browser.
+4. Atualiza a fonte e prime um botão do comando.
+Os gráficos estão incluídos dentro desse CSS; não são necessários links de imagens.
+Podes manter as opções de jogador e remapeamento do teu URL atual.
+O CSS substitui as cores/arte da Dracula sem alterar a leitura do comando.
+
+NO GERADOR BETA
+Seleciona GPV Classic Skin > Xbox One.
+Para usar Edit CSS URL, aloja esta pasta num servidor HTTPS e aponta o campo
+para edit.css. Os .svgz ficam na mesma pasta. São SVG em texto, como os originais.
+Também podes alojar só poco98-obs.css, que contém todos os gráficos.
+Este pack não foi publicado na Internet; não existe um URL público para colar ainda.
+
+PRÉVIA LOCAL
+Abre preview.html no navegador para ver a skin e a demonstração.
+Também podes servir esta pasta em localhost para testar leitura do comando.
+O modo Comando real usa a Gamepad API do navegador; a demo é uma simulação.
+
+FICHEIROS
+edit.css + *.svgz: ficheiros de substituição para o teu pack atual.
+poco98-obs.css: CSS autónomo com SVGs incluídos; recomendado para OBS.
+assets/*.svg: gráficos editáveis sem compressão.
+preview.html + preview.js: prévia e teste visual local.
+LICENSE.txt: licença MIT e atribuição Dracula Theme.
+
+Testes automáticos/visuais não substituem um teste físico no teu comando.
+
+
+VERSÃO 2
+D-pad creme e cruz dourada; patas grandes recortadas nas pegas; ícones dourados; mira com coroa substitui o logo Xbox; sem nome na carcaça; analógicos côncavos com textura de borracha.
+O desenho eSwap inspira os detalhes dos analógicos e painéis. A geometria e o posicionamento de inputs continuam os do Xbox One / Gamepad Viewer.
+
+VERSÃO 3
+Logo integralmente dourado, reduzido e centrado dentro do painel azul. Quadrados dos perfis em azul. Patas maiores, mais baixas e recortadas até às pontas das pegas.
